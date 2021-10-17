@@ -1,4 +1,5 @@
-FROM quay.io/eclipse/che-java8-maven:nightly
+#FROM quay.io/eclipse/che-java8-maven:nightly
+FROM maven:3.5-jdk-8-alpine
 
 MAINTAINER tech-tejendra
 
